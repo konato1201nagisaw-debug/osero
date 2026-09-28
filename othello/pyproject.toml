@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "othello"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "rich>=13",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
